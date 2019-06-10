@@ -1,0 +1,468 @@
+@media only screen and (min-width: 64em){
+
+	body {
+		background-color: #00BFFF;
+		color: #221811;
+		font-family: "Verdana";
+		background-image: url("./images/ocean.jpg");
+		background-repeat: repeat-x;
+		}
+	section {
+		display: grid;
+		margin-right: auto;
+		float: left;
+	}
+	section h3 {
+		text-indent: 15px;
+		background-color: #FFE4C4;
+		color: black;
+	}
+	section img {
+		float: left;
+		margin-left: 30px;
+	}
+	main {
+		padding: 15px;
+		display: table-cell;
+		}
+	main img {
+		float: right;
+		}
+	main ul {
+		list-style-image: url("./images/marker.gif");
+	}
+	main div img{
+	display: grid;
+	width: 25%;
+	float: left;
+	}
+	fieldset div{
+	margin-left: 30%;
+	}
+	audio{
+	display: block;
+	}
+	fieldset {
+		margin: auto;
+		background: #A9A9A9;
+		color: #00008B;
+	}
+	
+	label {
+	float: left;
+	text-align: right;
+	width: 10em;
+	margin-right: 1em;
+	}
+  	input[type="submit"]{
+		background-color: #00BFFF;
+		color: #00008B;
+	}
+	header {
+		text-align: center;
+	}
+	header h1 {
+		color: #00008B;
+		background-image: url("./images/lighthouselogo.jpg");
+		background-repeat: no-repeat;
+		height: 110px;
+		padding-left: 130px;
+		padding-top: 30px;
+		border: 1px solid #FFE4C4;
+		border-radius: 15px;
+		
+		}
+	nav {
+		margin: 0px;
+		text-align: center;
+		font-weight: bold;
+		width: 200px;
+		display: table-cell;
+		}
+	nav a {
+		text-decoration: none;
+		}
+	nav ul{
+		position: relative;
+		list-style-type: none;
+		}
+	nav div {
+		position: relative;
+		top: 100px;
+		box-sizing: border-box;
+		border: 2px solid #FFE4C4;
+		border-radius: 2px;
+		background-image: url("./images/ocean.jpg");
+		}
+		
+	h1 {
+		color: #FFE4C4;
+		line-height: 200%;
+		}
+	
+	h3 {
+		color: #FFE4C4;
+		
+		}
+	dt {
+		color: #FFE4C4;
+		}
+	dd {
+		color: #221811;
+		}
+	li {
+		color: #FFE4C4;
+		}
+	p > u > strong {
+		color: #A52A2A;
+		font-family: calibri;
+		font-size: 1.4em;
+	}
+	footer {
+		background: #A9A9A9;
+		color: #00008B;
+		clear: both;
+		font-size: small;
+		font-style: italic;
+		text-align: center;
+		border: 1px solid #EAEAEA;
+		border-radius: 5px;
+	
+		}
+	caption {
+		text-align: left;
+		width: auto;
+		}
+	table {
+		caption-side: top;
+		border-collapse: collapse;
+		border: 2px solid #EAEAEA;
+	}
+	th {
+		background-color: #00008B;
+		border: 2px solid #EAEAEA;
+		color: #FFE4C4;
+		}
+	td {
+		border: 2px solid #EAEAEA;
+	}
+	td img{
+		height: 75px;
+		width: 100px;
+	}
+	
+	tr:nth-child(odd) {
+		background: #A9A9A9;
+		color: #00008B;
+		}
+		
+	col:nth-child(2) {
+		text-align: left;
+		}
+	col:nth-child(1) {
+		text-align: center;
+		}
+	col:nth-child(3) {
+		text-align: center;
+		}
+		
+	#address {
+		color: #191970;
+		font-size: 92%;
+		font-family: calibri;
+		}
+	#address a{
+		color: white;
+		pointer-events: none;
+	}
+	#mobileMenu {
+		display: none;
+		height: 0px;
+	}
+	#wrapper {
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 900px;
+		min-width: 750px;
+		width: 80%;
+	}
+	.hover {
+		background-color: yellow;
+		color: red;
+	}
+}
+@media screen and (min-width: 37.5em) and (max-width: 64em){
+	body {
+			background-color: #00BFFF;
+			color: #221811;
+			font-family: "Verdana";
+			background-image: url("./images/ocean.jpg");
+			background-repeat: repeat-x;
+			margin: 0px;
+			
+			}
+	header {
+			text-align: center;
+			}
+	fieldset {
+		margin: auto;
+		background: #A9A9A9;
+		color: #00008B;
+	}
+	label {
+		float: left;
+		text-align: right;
+		width: 10em;
+		margin-right: 1em;
+	}
+	input[type="submit"]{
+		background-color: #00BFFF;
+		color: #00008B;
+	}
+	header h1 {
+		color: #00008B;
+		background-image: url("./images/lighthouselogo.jpg");
+		background-repeat: no-repeat;
+		height: 110px;
+		padding-left: 130px;
+		padding-top: 30px;
+		border: 1px solid #FFE4C4;
+		border-radius: 15px;
+		}
+	main {
+		padding: 15px;
+		display: table-cell;
+		}
+	main img {
+		float: right;
+		}
+	main ul {
+		list-style-image: url("./images/marker.gif");
+	}
+	nav {
+		margin: 0px;
+		text-align: center;
+		font-weight: bold;
+		width: 200px;
+		display: table-cell;
+		}
+	nav a {
+		text-decoration: none;
+		}
+	nav ul{
+		position: relative;
+		list-style-type: none;
+		}
+	nav div {
+		position: relative;
+		top: 100px;
+		box-sizing: border-box;
+		border: 2px solid #FFE4C4;
+		border-radius: 2px;
+		background-image: url("./images/ocean.jpg");
+		}
+	h1 {
+		color: #FFE4C4;
+		line-height: 200%;
+		}
+	
+	h3 {
+		color: #FFE4C4;
+		}
+	dt {
+		color: #FFE4C4;
+		}
+	dd {
+		color: #221811;
+		}
+	li {
+		color: #FFE4C4;
+		}
+	p > u > strong {
+		color: #A52A2A;
+		font-family: calibri;
+		font-size: 1.4em;
+	}
+	table {
+		border-collapse: collapse;
+		border: 2px solid #EAEAEA;
+	}
+	th {
+		background-color: #00008B;
+		border: 2px solid #EAEAEA;
+		color: #FFE4C4;
+		}
+	td {
+		border: 2px solid #EAEAEA;
+	}
+	td img{
+		height: 75px;
+		width: 100px;
+	}
+	
+	tr:nth-child(odd) {
+		background: #A9A9A9;
+		color: #00008B;
+		}	
+	col:nth-child(2) {
+		text-align: left;
+		}
+	col:nth-child(1) {
+		text-align: center;
+		}
+	col:nth-child(3) {
+		text-align: center;
+		}
+	footer {
+		background: #A9A9A9;
+		color: #00008B;
+		clear: both;
+		font-size: small;
+		font-style: italic;
+		text-align: center;
+		border: 1px solid #EAEAEA;
+		border-radius: 5px;
+	}
+	
+	#wrapper {
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 900px;
+		min-width: 0px;
+		width: auto;
+		box-shadow: none;
+	}
+	#mobileMenu {
+		display: none;
+		height: 0px;
+	}
+	#address {
+		color: #191970;
+		font-size: 92%;
+		font-family: calibri;
+		}
+	#address a{
+		color: white;
+		pointer-events: none;
+	}
+	.hover {
+		background-color: yellow;
+		color: red;
+	}
+	
+}
+@media screen and (max-width: 37.5em){
+	body {
+		background-color: #00BFFF;
+		color: #221811;
+		font-family: "Verdana";
+		background-image: url("./images/ocean.jpg");
+		background-repeat: repeat-x;
+		}
+	header {
+			text-align: center;
+			padding-top: 1em;
+			}
+	header h1 {
+		color: #00008B;
+		background-image: url("./images/lighthouselogo.jpg");
+		background-repeat: no-repeat;
+		height: 110px;
+		padding-left: 130px;
+		padding-top: 30px;
+		border: 1px solid #FFE4C4;
+		border-radius: 15px;
+		}
+	main {
+		padding-top: 0.1em;
+		padding-bottom: 0.1em;
+		padding-left: 1em;
+		padding-right: 1em;
+		font-size: 90%;
+		display: block;
+		}
+	main img {
+		display: none;
+		height: 0px;
+		}
+	h1 {
+		color: #FFE4C4;
+		line-height: 200%;
+		font-size: 1.5em;
+		}
+	nav {
+		display:inline;
+		width: auto;
+		text-align: center;
+		padding: 0.5em;
+		}
+	nav a {
+		text-decoration: none;
+		display:block;
+		}
+	nav ul{
+		list-style-type: none;
+		}
+	nav li{
+		display:block;
+		margin: 0px;
+		border-bottom: 1px solid #FFE4C4;
+	}
+	nav li:first-child {
+		border-top: 1px solid #FFE4C4;
+	}
+	fieldset {
+		margin: auto;
+		background: #A9A9A9;
+		color: #00008B;
+	}
+	label {
+	display: block;
+	width: 10em;
+	margin-right: 1em;
+	}
+  	input[type="submit"]{
+		background-color: #00BFFF;
+		color: #00008B;
+	}
+	h1 {
+		color: #FFE4C4;
+		line-height: 200%;
+		}
+	
+	h3 {
+		color: #FFE4C4;
+		}
+	dt {
+		color: #FFE4C4;
+		}
+	dd {
+		color: #221811;
+		}
+	li {
+		color: #FFE4C4;
+		}
+	p > u > strong {
+		color: #A52A2A;
+		font-family: calibri;
+		font-size: 1.4em;
+	}
+	table {
+		display: none;
+		height: 0px;
+	}
+	footer {
+		background: #A9A9A9;
+		color: #00008B;
+		clear: both;
+		font-size: small;
+		font-style: italic;
+		text-align: center;
+		border: 1px solid #EAEAEA;
+		border-radius: 5px;
+	}
+	.hover {
+		background-color: yellow;
+		color: red;
+	}
+}

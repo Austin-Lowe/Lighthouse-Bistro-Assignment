@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="bistro.css">
+		<title>The Lighthouse Bistro</title>
+		<link rel="shortcut icon" href="./images/favicon.ico">
+	</head>
+	<body>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+		<div id="wrapper">
+			<header>
+				<h1>The Lighthouse Bistro</h1>
+			</header>
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a><br></li>
+					<li><a href="menu.html">Our Menu</a><br></li>
+					<li><a href="es.html">Entertainment Schedule</a><br></li>
+					<li><a href="reservations.html">Reservations</a></li>
+				</ul><div id="address">
+					The Lighthouse Bistro<br>#27 Lighthouse Road<br>Mackinac City, Michigan 49701<br>
+						<a href="tel:+1-888-555-5555">888-555-5555</a>
+				</div>
+			</nav>
+			<main>
+				<h2>Reservations at The Lighthouse Bistro</h2>
+				<h3>Contact Us Today To Make Your Dining Reservation!</h3>
+				<p>Required fields are marked with an asterisk *</p>
+				<form action="http://cs.ucf.edu/~markl/bistroformreport.php" method="post">
+					<fieldset>
+						<label for="firstname">*First Name:</label>
+						<input type="text" name="firstname" required><br>
+						<label for="lastname">*Last Name:</label>
+						<input type="text" name="lastname" required><br>
+						<label for="email">*E-mail:</label>
+						<input type="email" name="email" required><br>
+						<label for="phone">Phone:</label>
+						<input type="tel" name="phone"><br>
+						<label for="date">Date:</label>
+						<input type="date" name="date"><br>
+						<label for="time">Time:</label>
+						<input type="time" name="time"><br>
+						<label for="numberOfGuests">Number of Guests:</label>
+						<input type="number" name="numberOfGuests"><br>
+						<label for="comment">*Comments:</label>
+						<textarea rows="2" cols="32" id="comment" maxlength="64" required></textarea>
+						<div id="limit">Message limit 64 characters</div>
+						<input type="submit" value="Submit">
+					</fieldset>
+				</form>
+			</main>
+			<footer>
+				Copyright &copy; 2018 The Lighthouse Bistro<br><a href="mailto:austin.lowe@ucf.edu?subject=CIS4004&nbspProject-1">austin@lowe.com</a>
+				<div id="date"></div>
+			</footer>
+		</div>
+	</body>
+	<script src="bistro.js"></script>
+</html>
+
+
+
+
